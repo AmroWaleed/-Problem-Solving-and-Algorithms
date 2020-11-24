@@ -10,22 +10,21 @@ Ignore punctuation and assume sen will not be empty.
 */
 
 function longestWord_2(sen) {
-  if (sen.length === 0) {
-    return 'length 0 words';
-  }
+  sen = sen.replace(/[^\w\s]|_/g, "");
+  sen = sen.replace(/\s+/g, " ");
   let output = ''; 
   let words = sen.split(' '); 
   for (let index = 0; index < words.length; index++) {
     if (words[index].length > output.length) {
       output = words[index];
+  
     }
   }
   return output;
 
 }
 
-// I try to solve it my idea is add another condetion 
-// that ignor the special character 
+
 /* 
 Examples:
 longestWord_2('lol!- time.'); // => 'time'
