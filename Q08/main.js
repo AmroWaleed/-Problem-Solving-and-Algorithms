@@ -1,4 +1,4 @@
-console.log('Problem Solving Q: 8');
+console.log("Problem Solving Q: 8");
 
 /* Unique Item */
 
@@ -8,6 +8,8 @@ Write a function that returns the number of unique items in an array.
 
 function uniqueItems() {
   // YOUR CODE HERE
+  let unique = arr.filter((item, i, arr) => arr.indexOf(item) === i);
+  return unique.length;
 }
 
 /* 
