@@ -20,10 +20,13 @@ the string true, otherwise return the string false.
 function usernameValidation(str) {
   var str ="";
   var stringStart = str.startsWith("");
-  var stringValue = str.
-  var stringEnd = str.endWith("",Number);
+  var stringValue = str.length >=4 && str.length <=25
+  var stringEnd = str.endsWith("",Number);
+  return stringEnd;
 }
-
+// I try to solve like that bu the second condetion is not active 
+// and I have another idea to solve it with if condetion but i have 
+// somthing wrong with this solution  
 /* 
 Examples:
 usernameValidation('aa_'); // => false
