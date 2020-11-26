@@ -5,9 +5,15 @@ console.log('Problem Solving Q: 12');
 /*  
 Write a function that reverses the characters of every word of a sentence. Input sentences contain only English letter and space characters.
 */
+/* 
+try to solve this but i have no idea aboute reversing in same place 
+*/
+function reverseEachWord(str) {
+  var stringSplite = str.split("");
+  var reversingArray = stringSplite.reverse();
+  var joiningArray = reversingArray.join("");
+  return joiningArray;
 
-function reverseEachWord() {
-  // YOUR CODE HERE
 }
 
 /* 

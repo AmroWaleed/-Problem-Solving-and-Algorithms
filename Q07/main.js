@@ -9,8 +9,7 @@ Write a function that returns the sum of odd numbers in an array.
 the answer is wrong i don`t know why 
  */
 function SumOddNumber(num) {
-  // YOUR CODE HERE
-  let result = 0
+  let result = 0;
   for (let i = 0; i < num.length; i++) {
     if (i % 2 !== 0);
     result += num[i];
