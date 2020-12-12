@@ -1,4 +1,4 @@
-console.log('Problem Solving Q:14 ');
+console.log("Problem Solving Q:14 ");
 
 /* ArrayMiddle */
 
@@ -9,6 +9,8 @@ If the array has an even number of elements, return the average of the two middl
 
 function ArrayMiddle() {
   // YOUR CODE HERE
+  let sum = values.reduce((previous, current) => (current += previous));
+  let avg = sum / values.length;
 }
 
 /* 

@@ -16,6 +16,8 @@ function SumOddNumber(num) {
   }
   return result;
 }
+
+// for edge case we need to check is the type of value equal number 
 /* 
 Examples:
 SumOddNumber([1, 2, 3, 4, 5]) // => 9
