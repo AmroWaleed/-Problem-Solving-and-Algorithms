@@ -11,7 +11,13 @@
 //   fizz
 //   4
 //   buzz
-
+/**
+ * we should to have an array of counts fron 1 to n
+ * eterate over array and console log all the numbers in array
+ * but if we have anumber that multiples of three console log 'fizz'
+ * and if we have a number that multiples of five console log 'buzz' 
+ * if we have both console log fizzbuzz 
+*/
 function fizzBuzz(n) {}
 
 module.exports = fizzBuzz;
