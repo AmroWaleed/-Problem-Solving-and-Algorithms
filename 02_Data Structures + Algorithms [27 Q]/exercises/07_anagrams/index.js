@@ -7,7 +7,11 @@
 //   anagrams('rail safety', 'fairy tales') --> True
 //   anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 //   anagrams('Hi there', 'Bye there') --> False
-
+/**
+ * we should to iterate over array of both strings
+ * then check the value of all char 
+ * if the chars in string 1 equal chars in sring 2 return true 
+ */
 function anagrams(stringA, stringB) {}
 
 module.exports = anagrams;
